@@ -1,0 +1,137 @@
+html body {
+    margin:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    background:black;
+}
+
+h1 {
+    margin:0px;
+    text-align:center;
+    color:black;
+    font-size: xxx-large;
+    font-family:'Saira Semi Condensed', sans-serif;
+    border-bottom:2px solid black;
+
+}
+
+h2 {
+    color:white;
+    margin:0px;
+    font-weight:bold; 
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+button {
+    margin:5px;
+    background:white;
+    border:2px solid black;
+    font-weight:bold;
+    display:block;
+}
+
+li a {
+    font-weight:bold;
+}
+
+nav {
+    list-style-type:none;
+    padding-bottom:5px;
+}
+
+footer {
+    background-image:linear-gradient(to top right,#134e5e,#71b280);
+    color:black;
+    text-align:center;
+    border:2px solid black;
+    border-top:0px;
+}
+
+.tema {
+    background:red;
+    color:white;
+    font-weight:bold;
+    padding-left:5px;
+}
+
+.contenido {
+    background:white;
+    border:2px solid black;
+}
+
+.contenido p {
+    padding-left:5px;
+    margin:0px;
+}
+
+.contenido ul {
+    margin-bottom:0px;
+    padding-left:24px;
+}
+
+.txt_oculto {
+    padding-left:5px;
+    display:none;
+}
+
+#foto_perfil {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#contenedor {
+    padding-bottom:5px;
+    background-image:linear-gradient(to top right,#134e5e,#71b280);
+    text-align:center;
+    border:2px solid black;
+}
+
+@media screen and (max-width: 767px) {
+    #escritorio {
+        display:none;
+    }
+    #tablet {
+        display:none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #escritorio {
+        display:none;
+    }
+    #movil {
+        display:none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #movil {
+        display:none;
+    }
+    #tablet {
+        display:none;
+    }
+}
+
+#menu_sup {
+    text-align:right;
+    border-bottom:2px solid black;
+    padding-top:3px;
+    padding-bottom:0px;
+    padding-right:5px;
+    
+}
+
+.sup_item {
+    font-size:1.5em;
+    color:black;
+}
